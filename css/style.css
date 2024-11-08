@@ -1,0 +1,67 @@
+/* Documento CSS */
+
+@font-face {
+	font-family: 'CircularStdBold';
+	src: url('../fonts/CircularStdBold.eot');
+	src: local('CircularStdBold'), url('../fonts/CircularStdBold.woff') format('woff'), url('../fonts/CircularStdBold.ttf') format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: #D3D3D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'segoe ui';
+    overflow-y: auto; /* Adiciona rolagem se necessário */
+}
+.portfolio-container {
+    background-image: url(../img/bg.png);
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+.project-card {
+    background-color: #eaeaea;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all .2s ease-out;
+    cursor: pointer;
+}
+.project-card h2 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+.project-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
