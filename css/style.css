@@ -18,13 +18,13 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-    font-family: 'segoe ui';
+    font-family: 'DM Sans';
     overflow-y: auto; /* Adiciona rolagem se necessário */
 }
 .portfolio-container {
     background-image: url(../img/bg.png);
     border-radius: 10px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     max-width: 600px;
     width: 100%;
     padding: 40px;
@@ -59,7 +59,7 @@ p {
 }
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .card-link {
     text-decoration: none;
